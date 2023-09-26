@@ -7,7 +7,6 @@
     height: 400px;
     width: 400px;
 }
-
 header h1{
     margin-left: 350px;
     color: white;
@@ -16,7 +15,6 @@ header h1{
     text-align: center;
     display: block;
 }
-
 .section1{
     display: flex;
     margin-left: 180px;
@@ -36,9 +34,7 @@ header h1{
     width: 100%;
  }
 .moon-content ul{
-    list-style: none;
-   
-    
+    list-style: none;   
 }
 .moon-content .list-items{
     color: rgb(199, 196, 196);
@@ -54,24 +50,22 @@ header h1{
     display: flex;
     margin-left: 180px;
     margin-bottom: 160px;
-    margin-right: 0;
-
 }
 .section2 .mars-content{
+    text-align: center;
     color: white;
     max-width: 400px;
     width: 100%;
     margin-left: 50px;
-    margin-top: 100px;
-    
+    margin-top: 100px;  
 }
 .section2 .mars-img{
     margin-top: 130px;
-   margin-left: 130px;
+    margin-left: 130px;
     height: 400px;
     width: 400px;
 }
-.mars-content{
+.section2 .mars-content{
     margin-left: 50px;
     text-align: center;
 }
@@ -86,6 +80,43 @@ header h1{
 .mars-content ul{
     list-style: none;
 }
+
+.section3{
+    margin-left: 180px;
+    margin-bottom: 160px;
+    margin-right: 200px;
+    display: flex;
+}
+.section3 .iss-img{
+    height: 400px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 140px;
+}
+.section3 .iss-content{
+    text-align: center;
+    color: white;
+    max-width: 400px;
+    width: 100%;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+.iss-content .list-items{
+    color: rgb(199, 196, 196);
+    line-height: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.iss-content .ul{
+    list-style: none;
+}
+.iss-content .anchor{
+    color: white;
+    
+}
+
 .our-services-btn{
     text-decoration: none;
     color: white;
@@ -101,3 +132,4 @@ header h1{
     text-align: center;
     margin-left: 650px;
 }
+
