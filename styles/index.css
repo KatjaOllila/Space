@@ -152,3 +152,84 @@ header {
     cursor: pointer;
     transform: scale(1.1);
 }
+.adv-title {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #7ba376;
+    text-shadow: 2px 2px 2px #000000;
+    font-size: 40px;
+}
+.advantages {
+    height: 100vh;
+    margin: 50px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-wrap: wrap;
+}
+.advantages-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card {
+    width: 300px;
+    height: 300px;
+    background-color: #aec4ab;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    z-index: 2;
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.adv__first{
+    background-image: url(../images/history-in-hd-e5eDHbmHprg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;     
+}
+.adv__second{
+    background-image: url(../images/mars-67522_1920.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.adv__third{
+    background-image: url(../images/red-planet-571902_1920.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.card__content {
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.rectangle {
+    width: 1100px;
+    height: 300px; 
+    background-color: #7ba376; 
+    position: relative;
+    bottom: 200px;
+}
+.btn__read {
+    position: relative;
+    bottom: 280px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: rgb(235, 134, 2);
+    font-weight: bold;
+}
+.btn__read:hover {
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+    transform: scale(1.1);
+}
