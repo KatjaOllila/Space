@@ -1,0 +1,103 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.moon-img{
+    margin-left: 50px;
+    margin-top: 140px;
+    height: 400px;
+    width: 400px;
+}
+
+header h1{
+    margin-left: 350px;
+    color: white;
+    font-size: 54px;
+    width: 100vh;
+    text-align: center;
+    display: block;
+}
+
+.section1{
+    display: flex;
+    margin-left: 180px;
+    margin-bottom: 160px;
+    margin-right: 200px;
+}
+.section1 .moon-content{
+    max-width: 500px;
+    width: 100%;
+    margin-left: 180px;
+    margin-top: 100px;
+    color: white;
+    margin-right: 0;
+}
+.section1 .moon-content{
+    max-width: 700px;
+    width: 100%;
+ }
+.moon-content ul{
+    list-style: none;
+   
+    
+}
+.moon-content .list-items{
+    color: rgb(199, 196, 196);
+    line-height: 25px;
+    text-align: center;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.section2{
+    display: flex;
+    margin-left: 180px;
+    margin-bottom: 160px;
+    margin-right: 0;
+
+}
+.section2 .mars-content{
+    color: white;
+    max-width: 400px;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 100px;
+    
+}
+.section2 .mars-img{
+    margin-top: 130px;
+   margin-left: 130px;
+    height: 400px;
+    width: 400px;
+}
+.mars-content{
+    margin-left: 50px;
+    text-align: center;
+}
+.mars-content .list-items{
+    color: rgb(199, 196, 196);
+    line-height: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.mars-content ul{
+    list-style: none;
+}
+.our-services-btn{
+    text-decoration: none;
+    color: white;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    background: #F90;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 650px;
+}
