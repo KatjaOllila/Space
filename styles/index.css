@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: scroll;
+}
+header {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/astronaut-4456106_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo-title {
+    font-style: italic;
+    font-weight: bold;
+    color: #7ba376;
+    position: relative;
+    right: 220px;
+    text-shadow: 2px 2px 2px #000000;
+}
+.logo {
+    position: relative;
+    top: 10px;
+}
+.nav-bar {
+    width: 100%;
+    max-height: 50px; 
+    padding: 10px 0;
+    z-index: 5;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    min-width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 10px;
+    list-style: none;
+}
+.nav__link {
+    color: #7ba376;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav__link:hover {
+    font-weight: bold;
+    color: #7ba376;
+    text-decoration: underline;
+}
+.header-content{
+    max-width: 600px;
+    margin-right: 100px;
+    color: #7ba376;
+    text-shadow: 2px 2px 2px #000000;
+}
+.header-question-second {
+    position: relative;
+    bottom: 10px;
+    left: 50px;
+}
+.header-question-first {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 90px;
+}
+.header-motto {
+    font-size: 50px;
+    color: white;
+}
