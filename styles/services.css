@@ -1,0 +1,51 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+header{
+    font-size: 32px;
+    text-align: center;
+}
+.section1{
+    display: flex;
+    margin-top: 100px;
+}
+.section1 .hotel-img{
+    height: 350px;
+    width: 350px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 15px 15px rgba(rgba(116, 32, 32, 0.15));
+
+}
+.section1 .left-container{
+    display: flex;
+    width: 1000px;
+    margin-left: 150px;
+}
+.section1 .right-container{
+    display: flex;
+    margin-left: 200px;
+}
+.section2{
+    display: flex;
+    margin-top: 100px;
+}
+.section2 .spaceship{
+    height: 350px;
+    width: 350px;
+    border: none;
+    border-radius: 20px;
+}
+.section2 .left-container{
+    display: flex;
+    margin-left:150px ;
+}
+.section2 .right-container{
+    width: 800px;
+    display: flex;
+    max-width: 450px;
+    width: 100%;
+    
+    margin-left: 250px;
+}
