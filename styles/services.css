@@ -5,31 +5,32 @@
 header{
     font-size: 32px;
     text-align: center;
-}
+    box-shadow: 10px 10px 10px rgb(77, 76, 76);
+}/*header ends...*/
 .section1{
     display: flex;
-    margin-top: 100px;
+    margin-top: 100px;  
 }
 .section1 .hotel-img{
     height: 350px;
     width: 350px;
     border: none;
     border-radius: 20px;
-    box-shadow: 5px 15px 15px rgba(rgba(116, 32, 32, 0.15));
-
+    box-shadow: 5px 15px 15px rgba(rgba(116, 32, 32, 0.15))
 }
 .section1 .left-container{
     display: flex;
-    width: 1000px;
-    margin-left: 150px;
+    width: 900px;
+    margin-left: 240px;
 }
 .section1 .right-container{
     display: flex;
     margin-left: 200px;
-}
+}/*section1 ends...*/
 .section2{
     display: flex;
     margin-top: 100px;
+    margin-left: 70px;
 }
 .section2 .spaceship{
     height: 350px;
@@ -42,10 +43,139 @@ header{
     margin-left:150px ;
 }
 .section2 .right-container{
-    width: 800px;
+    width: 400px;
     display: flex;
-    max-width: 450px;
-    width: 100%;
-    
     margin-left: 250px;
+}/*section2 ends...*/
+
+.section3{
+    display: flex;
+    margin-top: 100px;
+    margin-left:200px;
+}
+.section3 .entertainment-img{
+    height: 350px;
+    width: 350px;
+    border: none;
+    border-radius: 20px;margin-left: 150px;
+}
+.section3 .left-container{
+    display: flex;
+    width: 400px;
+    margin-left: 30px;
+}
+.section3 .right-container{
+    display: flex;
+    margin-left: 50px;
+}/*section3 ends...*/
+
+.section4{
+   
+}
+.section4 .cards{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.section4 .card1{
+    height: 380px;
+    width: 240px;
+    background-color: rgb(231, 227, 227);
+    border: none;
+    border-radius: 10px;
+    padding: 14px;
+    box-shadow: 10px 10px 10px rgb(77, 76, 76);
+}
+.section4 .moon-trip{
+    height:190px;
+    width: 245px;
+    border: none;
+    border-radius: 10px;  
+}
+.section4 .moon-btn{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 6px;
+    background: #F90;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+.card1 .moon-btn:hover{
+    width: 120px;
+    height:45px ;
+    transition: 0.5s;
+}
+.section4 .card2{
+    height: 380px;
+    width: 240px;
+    background-color: rgb(231, 227, 227);
+    border: none;
+    border-radius: 10px;
+    padding: 14px; 
+    box-shadow: 10px 10px 10px rgb(77, 76, 76);
+}
+.section4 .card3{
+    height: 380px;
+    width: 240px;
+    background-color: rgb(231, 227, 227);
+    border: none;
+    border-radius: 10px;
+    padding: 14px;
+    box-shadow: 10px 10px 10px rgb(77, 76, 76);
+}
+.section4 .card1:hover, .card2:hover, .card3:hover{
+    height: 430px ;
+    width:260px ;
+    transition: 0.5s ease-in-out;
+}/*section4 ends...*/
+
+.section5 .form-container{
+    position: relative;
+    background-color: rgb(187, 241, 187);
+    display: block;
+    text-align: left;
+    margin-top: 40px;
+    height: 620px;
+    width: 920px;
+    font-size: 22px;
+    margin-left: 220px;
+    padding: 40px;
+    padding-left: 80px;
+    border: none;
+    border-radius:28px ;
+    background: rgb(252, 197, 114);
+    
+}
+.form-container input {
+    width: 290px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom:solid 1px ;
+}
+.form-container .input-date-of-birth{
+    width: 180px;
+}
+.form-container .submit-btn{
+    height: 40px;
+    width: 160px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 18px;
+    font-weight: 700;
+
+}
+.form-container .form-img{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    height: 620px;
 }
