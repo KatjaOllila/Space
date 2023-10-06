@@ -17,9 +17,12 @@ body {
 header {
     width: 100%;
     height: 70px;
-    background-color: #7ba376;
+    border: 1px solid #7ba376;
     position: relative;
     display: flex;
+}
+nav {
+    
 }
 .earth {
     width: 100%;
@@ -27,6 +30,7 @@ header {
     position: absolute;
     
 }
+
 .card {
     width: 
 }
