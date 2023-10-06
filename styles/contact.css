@@ -5,8 +5,28 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(50, 50, 236);
+    background-color: white;
 }
 .container {
-
+    width: 100%;
+    height: 100vh;
+    padding: 5px;
+    display: flex;
+    position: relative;  
+}
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #7ba376;
+    position: relative;
+    display: flex;
+}
+.earth {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    
+}
+.card {
+    width: 
 }
