@@ -8,13 +8,6 @@ body {
     box-sizing: border-box;
     background-color: white;
 }
-.container {   
-    width: 100%;
-    height: 100vh;
-    padding: 5px;
-    display: flex;
-    position: relative;  
-}
 header {
     width: 100%;
     height: 100px;    
@@ -22,18 +15,6 @@ header {
     position: relative;
     display: flex;    
     border: 1px solid red;
-}
-nav {
-    min-width: 600px;
-    height: 100px;
-    
-    display: flex;
-    align-content: center;
-    justify-content: space-evenly;
-    margin-left: 5px;
-    flex-direction: row;
-    border: 1px solid red;
-
 }
 .logo-title {
     font-style: italic;
@@ -47,16 +28,29 @@ nav {
     position: relative;
     top: 10px;
 } 
+nav {
+    min-width: 600px;
+    height: 100px;    
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    list-style: none;
+    flex-direction: row;
+    border: 1px solid red;
+}
 li {
-    list-style: none;    
-    display: inline;    
-    font-size: 20px;
+    list-style: none; 
+    text-decoration: none;   
+    display: inline;
+    font-size: 20px; 
+    margin-right: 10px; 
+    margin-left: 10px;  
     font-family: 'Roboto' sans-serif;
     font-weight: bold;
     color: #7ba376;
-
-}  
-:hover {
+               
+} 
+li:hover {
     font-weight: bold;
     color: #7ba376;
     text-decoration: underline;
@@ -67,16 +61,25 @@ li {
     height: 50vh;
     margin: 5px;
     position: relative;
-    opacity: 70%;    
+    opacity: 80%;    
+}
+.card {
+    min-width: 320px;
+    margin: 5px;
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid #7ba376;
 }
 .team {
-   min-width: 300px;
-   margin: 5px:
+   min-width: 300px;  
+   max-width: 400px; 
+   position: relative;
+   margin: 15px;
 }
 
-.card {
-    width: 
-}
+
 h2 {
     font-family: 'Roboto', sans-serif;
     color: #7ba376;
