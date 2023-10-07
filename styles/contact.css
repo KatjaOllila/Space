@@ -10,30 +10,42 @@ body {
 }
 header {
     width: 100%;
+    max-width: 1400px;
     height: 100px;    
     border: 1px solid #7ba376;
     position: relative;
-    display: flex;    
+    display: flex; 
+    justify-content: space-around;     
     border: 1px solid red;
+}
+.logo-box {
+    max-width: 500px;
+    min-height: fit-content;
+    display: flex;
+    position: relative;
+    
+    
+    
 }
 .logo-title {
     font-style: italic;
     font-weight: bold;
     color: #7ba376;
     position: relative;
-    right: 120px;
+    display: flex;    
     text-shadow: 2px 2px 2px #000000;
 }
 .logo {
-    position: relative;
-    top: 10px;
+    position: relative;    
+    display: flex;
+    
 } 
 nav {
-    min-width: 600px;
-    height: 100px;    
+    min-width: 300px;
+    min-height: 100px;    
     display: flex;
-    align-content: center;
-    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: space-around;    
     list-style: none;
     flex-direction: row;
     border: 1px solid red;
@@ -77,6 +89,9 @@ li:hover {
    max-width: 400px; 
    position: relative;
    margin: 15px;
+   border: 2px solid #7ba376;
+   border-radius: 10%;
+   
 }
 
 
