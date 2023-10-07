@@ -9,7 +9,7 @@ body {
     background-color: white;
 }
 header {
-    width: 100%;
+    width: 99%;
     max-width: 1400px;
     height: 100px;    
     border: 1px solid #7ba376;
@@ -69,7 +69,7 @@ li:hover {
 } 
 
 .earth {
-    width: 100%;
+    width: 99%;
     height: 50vh;
     margin: 5px;
     position: relative;
@@ -81,14 +81,14 @@ li:hover {
     display: flex;
     position: relative;
     align-content: center;
-    justify-content: center;
+    justify-content: left;
     border: 1px solid #7ba376;
 }
 .team {
    min-width: 300px;  
    max-width: 400px; 
    position: relative;
-   margin: 15px;
+   margin: 5px;
    border: 2px solid #7ba376;
    border-radius: 10%;
    
