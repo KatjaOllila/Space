@@ -82,6 +82,7 @@ li:hover {
     position: relative;
     align-content: center;
     justify-content: left;
+    flex-wrap: wrap;
     border: 1px solid #7ba376;
 }
 .team {
@@ -99,3 +100,4 @@ h2 {
     font-family: 'Roboto', sans-serif;
     color: #7ba376;
 }
+
