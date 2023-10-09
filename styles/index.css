@@ -17,14 +17,13 @@ header {
     font-style: italic;
     font-weight: bold;
     color: #7ba376;
-    position: relative;
-    right: 50px;
     text-shadow: 2px 2px 2px #000000;
+    position: relative;
+    right: 100px;
 }
 .logo {
     position: relative;
     top: 10px;
-    left: 40px;
 }
 .nav-bar {
     width: 100%;
@@ -37,21 +36,12 @@ header {
     top: 0;
     left: 0;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
 }
 .nav {
     max-width: 600px;
     width: 100%;
-}
-.nav__list {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-direction: row;
-    margin-left: 50px;
-    list-style: none;
 }
 .nav__link {
     float: left;
@@ -68,36 +58,36 @@ header {
     text-shadow: 1px 1px 1px #000000;
     text-decoration: underline;
 }
-/*.nav .icon {
+.nav .icon {
     display: none;
-  }*/
-  @media screen and (max-width: 600px) {
-    .nav-links  {display: none;}
-    .nav-links .icon {
-      float: right;
+  }
+  @media screen and (max-width: 800px) {
+    .nav a  {display: none;}
+    .nav a.icon {
+      float: left;
       display: block;
     }
   }
   
-  @media screen and (max-width: 600px) {
-    .nav-links.responsive {position: relative;}
-    .nav-links.responsive .icon {
+  @media screen and (max-width: 800px) {
+    .nav a.responsive {position: relative;}
+    .nav a.responsive .icon {
       position: absolute;
       right: 0;
       top: 0;
     }
-    .nav-links.responsive a {
+    .nav.responsive a {
       float: none;
-      display: block;
+      display: inline-block;
       text-align: left;
+      font-size: 18px;
     }
   }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1000px) {
     .logo-title {
         display: none;
     }
  } 
-
 .header-content{
     max-width: 600px;
     width: 100%;
