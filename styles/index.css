@@ -1,133 +1,334 @@
-*{
-    font-family: 'Roboto', sans-serif;
+header {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background-image: url(../images/astronaut-4456106_1920.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0;
 }
-.moon-img{
-    margin-left: 50px;
-    margin-top: 140px;
-    height: 400px;
-    width: 400px;
+
+.logo-title {
+  font-style: italic;
+  font-weight: bold;
+  color: #7ba376;
+  text-shadow: 2px 2px 2px #000000;
+  position: relative;
+  right: 100px;
 }
-header h1{
-    margin-left: 350px;
-    color: white;
-    font-size: 54px;
-    width: 100vh;
-    text-align: center;
+
+.logo {
+  position: relative;
+  top: 10px;
+}
+
+.nav-bar {
+  width: 100%;
+  margin: auto;
+  max-height: 50px;
+  padding: 10px 0;
+  z-index: 5;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav {
+  max-width: 600px;
+  width: 100%;
+}
+
+.nav__link {
+  float: left;
+  display: block;
+  color: #7ba376;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 50px;
+}
+
+.nav__link:hover {
+  font-weight: bold;
+  color: #7ba376;
+  text-shadow: 1px 1px 1px #000000;
+  text-decoration: underline;
+}
+
+.nav .icon {
+  display: none;
+}
+
+body {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  font-family: "Roboto", sans-serif;
+  max-width: 100%;
+  margin: auto;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0;
+}
+
+.container h1 {
+  color: white;
+  font-size: 54px;
+  width: 100vh;
+  text-align: center;
+  display: block;
+}
+
+.section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+}
+
+.moon-img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.moon-image {
+  padding-top: 100px;
+}
+
+.section1 .moon-content {
+  max-width: 500px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.moon-content ul {
+  list-style: none;
+}
+
+.moon-content .list-items {
+  color: rgb(199, 196, 196);
+  line-height: 25px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 25px;
+}
+
+/*section1 ends..............*/
+.section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+}
+
+.section2 .mars-content {
+  text-align: center;
+  color: white;
+  max-width: 500px;
+  width: 100%;
+}
+
+.mars-image {
+  padding-top: 100px;
+}
+
+.section2 .mars-img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.mars-content .list-items {
+  color: rgb(199, 196, 196);
+  line-height: 25px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 25px;
+}
+
+.mars-content ul {
+  list-style: none;
+}
+
+/*section 2 ends.......*/
+.section3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+}
+
+.section3 .iss-img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.iss-image {
+  padding-top: 100px;
+}
+
+.section3 .iss-content {
+  text-align: center;
+  color: white;
+  max-width: 500px;
+  width: 100%;
+}
+
+.iss-content .list-items {
+  color: rgb(199, 196, 196);
+  line-height: 25px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 25px;
+}
+
+.iss-content .ul {
+  list-style: none;
+}
+
+.iss-content .anchor {
+  color: white;
+}
+
+/*section3 ends......*/
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.our-services-btn {
+  text-decoration: none;
+  color: white;
+  width: 180px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  background: #F90;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .nav a {
+    display: none;
+  }
+  .nav a.icon {
+    float: left;
     display: block;
+  }
 }
-.section1{
-    display: flex;
-    margin-left: 180px;
-    margin-bottom: 160px;
-    margin-right: 200px;
+@media screen and (max-width: 800px) {
+  .nav a.responsive {
+    position: relative;
+  }
+  .nav a.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: inline-block;
+    text-align: left;
+    font-size: 18px;
+  }
 }
-.section1 .moon-content{
-    max-width: 500px;
-    width: 100%;
-    margin-left: 180px;
-    margin-top: 100px;
-    color: white;
-    margin-right: 0;
+@media screen and (max-width: 1000px) {
+  .logo-title {
+    display: none;
+  }
 }
-.section1 .moon-content{
-    max-width: 700px;
-    width: 100%;
- }
-.moon-content ul{
-    list-style: none;   
-}
-.moon-content .list-items{
-    color: rgb(199, 196, 196);
-    line-height: 25px;
-    text-align: center;
-    width: 400px;
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-}
-
-.section2{
-    display: flex;
-    margin-left: 180px;
-    margin-bottom: 160px;
-}
-.section2 .mars-content{
-    text-align: center;
-    color: white;
-    max-width: 400px;
-    width: 100%;
-    margin-left: 50px;
-    margin-top: 100px;  
-}
-.section2 .mars-img{
-    margin-top: 130px;
-    margin-left: 130px;
-    height: 400px;
-    width: 400px;
-}
-.section2 .mars-content{
-    margin-left: 50px;
-    text-align: center;
-}
-.mars-content .list-items{
-    color: rgb(199, 196, 196);
-    line-height: 25px;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-}
-.mars-content ul{
-    list-style: none;
-}
-
-.section3{
-    margin-left: 180px;
-    margin-bottom: 160px;
-    margin-right: 200px;
-    display: flex;
-}
-.section3 .iss-img{
-    height: 400px;
-    width: 400px;
-    margin-left: 50px;
-    margin-top: 140px;
-}
-.section3 .iss-content{
-    text-align: center;
-    color: white;
-    max-width: 400px;
-    width: 100%;
-    margin-left: 180px;
-    margin-top: 100px;
-}
-.iss-content .list-items{
-    color: rgb(199, 196, 196);
-    line-height: 25px;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-}
-.iss-content .ul{
-    list-style: none;
-}
-.iss-content .anchor{
-    color: white; 
-}
-.our-services-btn{
-    text-decoration: none;
-    color: white;
-    width: 180px;
-    height: 50px;
-    border: none;
-    border-radius: 4px;
-    background: #F90;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    text-align: center;
-    margin-left: 600px;
-}
-
