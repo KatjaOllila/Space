@@ -3,13 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/galery.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <header>
+        <div class="nav-bar">
+            <svg class="logo animate__animated animate__pulse animate__infinite">
+                <use xlink:href="images/globe.svg#globe"></use>
+            </svg>
+            <h2 class="logo-title animate__animated animate__pulse animate__infinite">SPACE TOURISM</h2>
+            <div class="nav" id="nav-bar">
+                        <a class="nav__link" href="#">Our product</a>
+                        <a class="nav__link" href="#">Gallery</a>
+                        <a class="nav__link" href="#">Contact us</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                          </a>
         <h1 class="heading animate__animated animate__backInLeft" >PICK YOUR DESTINATION</h1>
    </header>
- <img src="images/Mars.jpg" alt="Man on mars">   
+   <section>
+    <div><img src="images/Mars.jpg" alt="Man on mars"> <h2 class="text">Mars</h2>
+   </div>
+<div><img src="images/Saturn.jpg" alt="Picture of Saturn"><h3 class="text">Saturn</h3></div>
+<div> <img src="images/moon.jpg" alt="picture of moon"><h3 class="text">Moon</h3></div>
+</section>
+
 </body>
 </html>
