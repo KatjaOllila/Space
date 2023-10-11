@@ -88,6 +88,27 @@ header {
 .nav .icon {
     display: none;
 }
+.nav.responsive a {
+    font-size: 18px;
+    float: none;
+    display: inline-block;
+    text-align: left;
+}
+@media screen and (max-width: 800px) {
+    .nav a  {display: none;}
+    .nav a.icon {
+      float: left;
+      display: block;
+    }
+}
+@media screen and (max-width: 800px) {
+    .nav a.responsive {position: relative;}
+    .nav a.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+}
 .earth {
     width: 99%;
     height: 50vh;
