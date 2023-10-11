@@ -100,4 +100,14 @@ h2 {
     font-family: 'Roboto', sans-serif;
     color: #7ba376;
 }
-
+form {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;    
+    padding: 40px 0;    
+    text-align: center;    
+    padding-bottom: 25px;
+}
