@@ -1,0 +1,80 @@
+header {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background-image: url(../images/astronaut-4456106_1920.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.logo-title {
+  font-style: italic;
+  font-weight: bold;
+  color: #7ba376;
+  text-shadow: 2px 2px 2px #000000;
+  position: relative;
+  right: 100px;
+}
+
+.logo {
+  position: relative;
+  top: 10px;
+}
+
+.nav-bar {
+  width: 100%;
+  margin: auto;
+  max-height: 50px;
+  padding: 10px 0;
+  z-index: 5;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav {
+  max-width: 600px;
+  width: 100%;
+}
+
+.nav__link {
+  float: left;
+  display: block;
+  color: #7ba376;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 50px;
+}
+
+.nav__link:hover {
+  font-weight: bold;
+  color: #7ba376;
+  text-shadow: 1px 1px 1px #000000;
+  text-decoration: underline;
+}
+
+.nav .icon {
+  display: none;
+}
