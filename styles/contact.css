@@ -71,17 +71,25 @@ li:hover {
     position: relative;
     opacity: 80%;    
 }
+.container {
+    min-width: 320px;
+    margin: 5px;
+    display: flex;    
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid #7ba376;
+}
 .card {
     min-width: 320px;
     margin: 5px;
-    display: flex;
-    position: relative;
-    align-content: center;
-    justify-content: left;
+    display: flex;    
     flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
     border: 1px solid #7ba376;
 }
-.team {
+.text-box {
    min-width: 300px;  
    max-width: 400px; 
    position: relative;
