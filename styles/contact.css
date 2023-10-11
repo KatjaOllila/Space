@@ -17,7 +17,7 @@ header {
     height: 100vh;     
     display: flex;    
     font-family: 'Roboto', sans-serif;
-    background-image: url(../images/astronaut-4456106_1920.jpg);
+    background-image: url(../images/earth.webp);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -186,7 +186,7 @@ input:hover, textarea:hover, button:hover {
     background: #c0dbbd;
 }
 
-footer {
+.footer {
     font-family: 'Roboto', sans-serif;
     background-color: white;    
     padding: 40px 0;    
@@ -198,7 +198,7 @@ footer {
     text-align: center;    
     padding-bottom: 25px;        
 }
-footer .social a {    
+.footer .social a {    
     width: 40px;
     height: 40px;
     line-height: 38px;
@@ -209,33 +209,33 @@ footer .social a {
     padding: 5px;
     margin: 5px;
 }
-footer ul {
+.footer ul {
     font-size: 20px;    
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;    
 }
-footer ul li {
+.footer ul li {
     display: inline-block;
     padding: 0 15px;
 }
-footer ul li a {
+.footer ul li a {    
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
     color: #7ba376;
     text-decoration: none;
 }
-footer .social a:hover {
+.footer .social a:hover {
     color: #385532; 
     cursor: pointer; 
  }
-footer ul li a:hover {
+.footer ul li a:hover {
     font-weight: 700;
     color: #7ba376;
     text-shadow: 1px 1px 1px #385532;
 }
-.logo-title {
+.footer.logo-title {
     position: relative;
     left: 10px;
     top: 15px;
