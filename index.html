@@ -3,11 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" src="styles/normalize.css">
-    <link rel="stylesheet" src="styles/index.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Space tourism</title>
 </head>
 <body>
-    
+    <header>
+        <div class="nav-bar">
+            <svg class="logo animate__animated animate__pulse animate__infinite">
+                <use xlink:href="images/globe.svg#globe"></use>
+            </svg>
+            <h2 class="logo-title animate__animated animate__pulse animate__infinite">SPACE TOURISM</h2>
+            <div class="nav" id="nav-bar">
+                        <a class="nav__link" href="#">Our product</a>
+                        <a class="nav__link" href="#">Gallery</a>
+                        <a class="nav__link" href="#">Contact us</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                          </a>
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("nav-bar");
+                        if (x.className === "nav") {
+                            x.className += " responsive";
+                        } else {
+                            x.className = "nav";
+                        }
+                        }
+                    </script>
+            </div>
+        </div>
+        <div class="header-content">
+            <h2 class="header-question-first ">Are you bored of ordinary travel?</h2>
+            <h2 class="header-question-second">Would you like to try something special?</h2>
+            <h1 class="header-motto animate__animated animate__fadeInDownBig ">GIVE YOURSELF SPACE </h1>
+        </div> 
+    </header> 
+    <main>
+        <div class="features">
+            <div class="square"></div>
+            <div class="features-container">
+                    <h2 class="features-title">What we offer:</h2>
+                <div class="features-content">
+                    <p>unforgattble experience</p>
+                    <p>unusual distanations</p>
+                    <p>comfortable accomodation</p>
+                    <p>modern aircrafts</p>
+                </div>
+                <button class="btn__product">Our product</button>
+            </div>
+        </div>
+        <div class="advantages">
+            <div><h2 class="adv-title">Advantages of space tourism</h2></div>
+            <div class="advantages-container">
+                <div class="card adv__first">
+                    <div class="card__content">
+                        <h2>A new perspective on the world</h2>
+                    </div>
+                </div>
+                <div class="card adv__second">
+                     <div class="card__content">
+                        <h2>Scientific research</h2>
+                    </div>
+                </div>
+                <div class="card adv__third">
+                     <div class="card__content">
+                        <h2>A potential future on a moon or Mars colony</h2>
+                    </div>
+                </div>
+            </div>
+            <button class="btn__read"><a href="https://www.futurelearn.com/info/blog/is-space-tourism-good-for-the-planet">READ MORE</a>
+            </button>  
+            <div class="rectangle"></div>
+        </div>
+    </main>
+    <section class="footer">
+        <div class="social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-snapchat"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a> 
+        </div>
+        <ul class="list">
+            <li><a href="#">Our product</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+        <div class="logo-footer" ></div>
+        <h2 class="logo-title">SPACE TOURISM</h2>
+        <svg class="logo-footer">
+            <use xlink:href="images/globe.svg#globe"></use>
+        </svg>
+    </section>
 </body>
 </html>
