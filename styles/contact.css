@@ -7,22 +7,23 @@ h1 {
     font-size: 36px;
    
 }
-
 body {
-    padding: 0;
-    margin: 0;
+    max-width: 100%;    
+    margin: auto;
     box-sizing: border-box;
     background-color: white;
 }
-header {
-    width: 99%;
-    max-width: 1400px;
-    height: 100px;    
-    border: 1px solid #7ba376;
-    position: relative;
-    display: flex; 
-    justify-content: space-around;     
-    border: 1px solid red;
+header {    
+    height: 100vh;     
+    display: flex;    
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/astronaut-4456106_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 .logo-box {
     max-width: 500px;
@@ -33,6 +34,7 @@ header {
 .logo-title {
     font-style: italic;
     font-weight: bold;
+    right: 100px;
     color: #7ba376;
     position: relative;
     display: flex;    
