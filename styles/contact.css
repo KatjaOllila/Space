@@ -1,7 +1,14 @@
 p {
     font-family: 'Roboto';
-    font-size: 18px;
+    font-size: 18px;    
 }
+p.pretty {
+    text-align: justify;
+}
+p.boxed {
+    margin: 5px 0;
+}
+
 h1 {
     font-family: 'Roboto';
     font-size: 36px;
@@ -35,12 +42,14 @@ header {
     font-weight: bold;
     color: #7ba376;
     position: relative;
-    display: flex;    
+    display: flex; 
+
     text-shadow: 2px 2px 2px #000000;
 }
 .logo {
     position: relative;    
-    display: flex;    
+    display: flex;   
+     
 } 
 nav {
     min-width: 300px;
@@ -88,9 +97,9 @@ li:hover {
 .card {    
     max-width: 500px;
     margin-right: 30px;
+    padding: 0 0 0 20px;
     display: flex;    
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-wrap: wrap;    
     flex-direction: column;
     border: 1px solid #7ba376;
 }
@@ -142,11 +151,14 @@ input:hover, textarea:hover, button:hover {
 }
 
 footer {
+    width: 100%;
+    max-width: 1300px;    
     font-family: 'Roboto', sans-serif;
     background-color: white;    
-    padding: 40px 0;    
-    text-align: center;    
+    padding: 40px 0 0 40px;  
+    text-align: center;   
     padding-bottom: 25px;
+    align-items: flex-start;
 }
 .social {
     font-size: 24px;
