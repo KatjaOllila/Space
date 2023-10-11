@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/destination.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <svg class="logo animate__animated animate__pulse animate__infinite">
+                <use xlink:href="images/globe.svg#globe"></use>
+            </svg>
+            <h2 class="logo-title animate__animated animate__pulse animate__infinite">SPACE TOURISM</h2>
+            <div class="nav" id="nav-bar">
+                        <a class="nav__link" href="#">Our product</a>
+                        <a class="nav__link" href="#">Gallery</a>
+                        <a class="nav__link" href="#">Contact us</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                          </a>
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("nav-bar");
+                        if (x.className === "nav") {
+                            x.className += " responsive";
+                        } else {
+                            x.className = "nav";
+                        }
+                        }
+                    </script>
+            </div>
+        </div>
+    </header>
+
+    <section class="container">
+
+         <h1 class="heading animate__animated animate__backInLeft" >PICK YOUR DESTINATION</h1>
+     </section>
+    <section class="section1">
+        <div class="moon-image">
+            <img class="moon-img" src="images/moon.png" alt="moon-img">
+        </div>
+        <div class="moon-content">
+            <h2>MOON</h2>
+            <p>See our planet as you've never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshened.</p>
+        <div class="list-items">
+            <ul>
+                <li><u>AVG. DISTANCE</u></li>
+                <li>384,000 KM</li>
+             </ul>
+             <ul>
+                <li><u>EST. TRAVEL TIME</u></li>
+                <li>3 DAYS</li>
+             </ul>
+        </div>  
+        </div>
+    </section>
+    <section class="section2">
+        <div class="mars-content">
+            <h2>MARS</h2>
+            <p>Don't forget to pack your hiking boots. you'll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system.</p>
+            <div class="list-items">
+                <ul>
+                    <li><u>AVG. DISTANC</u>E</li>
+                    <li>225 MIL. KM</li>
+            
+                </ul>
+                    
+                <ul>
+                    <li><u>EST. TRAVEL TIME</u></li>
+                    <li>9 MONTHS</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="mars-image">
+            <img class="mars-img" src="images/mars.png" alt="mars-img">
+        </div>
+    </section>
+    <section class="section3">
+        <div class="iss-image">
+            <img class="iss-img" src="images/iss.png" alt="International space station">
+        </div>
+        <div class="iss-content">
+        <div>
+            <h2>ISS</h2>
+            <p>It is International Space Station. It's the largest modular space station in low earth orbit. <a class="anchor" href="https://www.nasa.gov/mission_pages/station/main/index.html">Read more.</a></p>
+            <div class="list-items">
+                <ul>
+                    <li><u>AVG. DISTANCE</u></li>
+                    <li>420 KM</li>
+                </ul>
+                <ul>
+                    <li><u>EST.TRAVEL TIME</u></li>
+                    <li>4 HOURS</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <button class="our-services-btn"><a style="text-decoration: none; color: white;" href="services.html">OUR SERVICES</a></button>
+    </footer>
+</body>
+</html>
