@@ -13,17 +13,20 @@
 </head>
 <body>
     <header>
-        <div class="logo-box">
+        <div class="nav-bar">
         <svg class="logo animate__animated animate__pulse animate__infinite">
             <use xlink:href="images/globe.svg#globe"></use>
         </svg>
         <h2 class="logo-title animate__animated animate__pulse animate__infinite">SPACE TOURISM</h2>
         </div>
-           <nav>
+           <nav class="nav" id="nav-bar">
                 <ul>
-                    <li><a>Home</a></li>
-                    <li><a>Our Products</a></li>
-                    <li><a>Gallery</a></li>
+                    <li class="nav_link"><a>Home</a></li>
+                    <li class="nav_link"><a>Our Products</a></li>
+                    <li class="nav_link"><a>Gallery</a></li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    </a>           
                 </ul>
             </nav>
     </header>
