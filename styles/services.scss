@@ -1,0 +1,329 @@
+@import 'header';
+
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+    margin: auto;
+}
+h3{
+    color: gray;
+}
+section .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+section .container h1{
+    font-size: 32px;
+    box-shadow: 10px 10px 10px rgb(77, 76, 76);
+}
+
+
+.section1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+.section1 .hotel-img{
+    height: 350px;
+    max-width: 350px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+}
+.section1 .left-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+}
+.section1 .right-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.section1 .icon {
+    display: flex;
+    align-items: center;
+}
+/*section1 ends...*/
+.section2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px; 
+}
+.section2 .spaceship{
+    height: 350px;
+    max-width: 350px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+}
+.section2 .left-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.section2 .right-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+}
+.section2 .icon {
+    display: flex;
+    align-items: center;
+}/*section2 ends...*/
+
+.section3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+.section3 .entertainment-img{
+    height: 350px;
+    max-width: 350px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+}
+.section3 .left-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+}
+.section3 .right-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section3 .icon {
+    display: flex;
+    align-items: center;
+}/*section3 ends...*/
+
+.section4 h1{
+    text-align: center;
+    font-size: 40px; 
+    box-shadow: 10px 10px 10px rgb(77, 76, 76); 
+    max-width: 280px;
+    width: 100%;
+}
+.section4 .h1-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px; 
+    margin-bottom: 50px;
+}
+.section4 .cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section4 .card1{
+    height: 380px;
+    max-width: 240px;
+    width: 100%;
+    background-color: rgb(231, 227, 227);
+    border: none;
+    border-radius: 10px;
+    padding: 14px;
+    box-shadow: 10px 10px 10px rgb(77, 76, 76);
+}
+.card1  .card-content{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;  
+}
+.card1 .card-info{
+    font-size: 18px; 
+    color: #F90;
+    text-align: center;
+}
+.card1 .card-detail{
+    display:  flex; 
+    justify-content: space-between; 
+    font-size: 18px; 
+    color: #F90;
+}
+.section4 .moon-trip{
+    height:190px;
+    max-width: 245px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;  
+}
+.section4 .moon-btn{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 6px;
+    background: #F90;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+.card1 .moon-btn:hover{
+    width: 120px;
+    height:45px ;
+    transition: 0.5s;
+}
+.section4 .card2{
+    height: 380px;
+    max-width: 240px;
+    width: 100%;
+    background-color: rgb(231, 227, 227);
+    border: none;
+    border-radius: 10px;
+    padding: 14px; 
+    box-shadow: 10px 10px 10px rgb(77, 76, 76);
+}
+.card2  .card-content{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    
+}
+.card2 .card-info{
+    font-size: 18px; 
+    color: #F90;
+    text-align: center;
+}
+.card2 .card-detail{
+    display:  flex; 
+    justify-content: space-between; 
+    font-size: 18px; 
+    color: #F90;
+}
+.section4 .card3{
+    height: 380px;
+    max-width: 240px;
+    width: 100%;
+    background-color: rgb(231, 227, 227);
+    border: none;
+    border-radius: 10px;
+    padding: 14px;
+    box-shadow: 10px 10px 10px rgb(77, 76, 76);
+}
+.card3  .card-content{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    
+}
+.card3 .card-info{
+    font-size: 18px; 
+    color: #F90;
+    text-align: center;
+}
+.card3 .card-detail{
+    display:  flex; 
+    justify-content: space-between; 
+    font-size: 18px; 
+    color: #F90;
+}
+.section4 .card1:hover, .card2:hover, .card3:hover{
+    height: 430px ;
+    width:260px ;
+    transition: 0.5s ease-in-out;
+}/*section4 ends...*/
+
+.section5 .form-container{
+    position: relative;
+    background-color: rgb(187, 241, 187);
+    display: block;
+    text-align: left;
+    margin-top: 40px;
+    height: 620px;
+    width: 920px;
+    font-size: 22px;
+    padding: 40px;
+    padding-left: 80px;
+    border: none;
+    border-radius:28px ;
+    background: rgb(252, 197, 114); 
+}
+.section5 h2{
+   margin-top: 100px;
+    text-align: center;
+}
+.section5 .register-form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form-container input {
+    max-width: 290px;
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom:solid 1px ;
+}
+.form-container .input-date-of-birth{
+    width: 180px;
+}
+.form-container .submit-btn{
+    height: 40px;
+    width: 160px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 18px;
+    font-weight: 700;
+
+}
+.form-container .form-img{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    height: 620px;
+}
+@media screen and (max-width: 800px) {
+    .nav a  {display: none;}
+    .nav a.icon {
+      float: left;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .nav a.responsive {position: relative;}
+    .nav a.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .nav.responsive a {
+      float: none;
+      display: inline-block;
+      text-align: left;
+      font-size: 18px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .logo-title {
+        display: none;
+    }
+ }
