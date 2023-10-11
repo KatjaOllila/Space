@@ -28,7 +28,18 @@
                     <i class="fa fa-bars"></i>
                     </a>           
                 </ul>
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("nav-bar");
+                        if (x.className === "nav") {
+                            x.className += " responsive";
+                        } else {
+                            x.className = "nav";
+                        }
+                    }
+                </script>
             </nav>
+        </div>
     </header>
     <img class="earth" src="images/earth.webp">
     <div class="container">   

@@ -79,6 +79,15 @@ header {
     color: #7ba376;
     text-decoration: none;
 }
+.nav__link:hover {
+    font-weight: 700;
+    color: #7ba376;
+    text-shadow: 1px 1px 1px #000000;
+    text-decoration: underline;
+}
+.nav .icon {
+    display: none;
+}
 .earth {
     width: 99%;
     height: 50vh;
