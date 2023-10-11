@@ -40,8 +40,7 @@ header {
 }
 .logo {
     position: relative;    
-    display: flex;
-    
+    display: flex;    
 } 
 nav {
     min-width: 300px;
