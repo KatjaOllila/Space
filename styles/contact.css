@@ -168,3 +168,9 @@ footer ul li a:hover {
          left: 50px;
     }
 }
+@media screen and (max-width: 750px) {
+    footer {
+        position: relative;
+         top: 570px;
+    }
+ }
