@@ -22,10 +22,7 @@ header {
     max-width: 500px;
     min-height: fit-content;
     display: flex;
-    position: relative;
-    
-    
-    
+    position: relative;    
 }
 .logo-title {
     font-style: italic;
@@ -67,7 +64,6 @@ li:hover {
     color: #7ba376;
     text-decoration: underline;
 } 
-
 .earth {
     width: 99%;
     height: 50vh;
@@ -91,11 +87,8 @@ li:hover {
    position: relative;
    margin: 5px;
    border: 2px solid #7ba376;
-   border-radius: 10%;
-   
+   border-radius: 10%; 
 }
-
-
 h2 {
     font-family: 'Roboto', sans-serif;
     color: #7ba376;
@@ -114,8 +107,7 @@ footer {
 .social {
     font-size: 24px;
     text-align: center;    
-    padding-bottom: 25px;
-        
+    padding-bottom: 25px;        
 }
 footer .social a {    
     width: 40px;
@@ -137,7 +129,6 @@ footer ul {
 footer ul li {
     display: inline-block;
     padding: 0 15px;
-
 }
 footer ul li a {
     font-size: 20px;
