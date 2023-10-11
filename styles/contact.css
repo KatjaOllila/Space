@@ -109,6 +109,11 @@ header {
       top: 0;
     }
 }
+@media screen and (max-width: 1000px) {
+    .logo-title {
+        display: none;
+    }
+}
 .earth {
     width: 99%;
     height: 50vh;
