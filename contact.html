@@ -13,34 +13,21 @@
 </head>
 <body>
     <header>
-        <div class="nav-bar">
+        <div class="logo-box">
         <svg class="logo animate__animated animate__pulse animate__infinite">
             <use xlink:href="images/globe.svg#globe"></use>
         </svg>
         <h2 class="logo-title animate__animated animate__pulse animate__infinite">SPACE TOURISM</h2>
         </div>
-           <nav class="nav" id="nav-bar">
+           <nav>
                 <ul>
-                    <li class="nav_link"><a>Home</a></li>
-                    <li class="nav_link"><a>Our Products</a></li>
-                    <li class="nav_link"><a>Gallery</a></li>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                    </a>           
+                    <li><a>Home</a></li>
+                    <li><a>Our Products</a></li>
+                    <li><a>Gallery</a></li>
                 </ul>
-                <script>
-                    function myFunction() {
-                        var x = document.getElementById("nav-bar");
-                        if (x.className === "nav") {
-                            x.className += " responsive";
-                        } else {
-                            x.className = "nav";
-                        }
-                    }
-                </script>
             </nav>
-        </div>
-    </header>    
+    </header>
+    <img class="earth" src="images/earth.webp">
     <div class="container">   
         <div class="card">
             <div class="text-box">
@@ -88,7 +75,7 @@
             </form>
         </div> 
     </div>
-    <footer class="footer">
+    <footer>
         <div class="social">
             <a href="#"><i class="fab fa-instagram"></i></a>
             <a href="#"><i class="fab fa-snapchat"></i></a>
@@ -100,9 +87,8 @@
             <li><a href="#">Our products</a></li>            
             <li><a href="#">Gallery</a></li>
         </ul>
-        <div class="logo-footer" ></div>
         <h2 class="logo-title">SPACE TOURISM</h2>
-        <svg class="logo-footer">
+        <svg>
             <use xlink:href="images/globe.svg#globe"></use>
         </svg>
     </footer>   

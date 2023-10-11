@@ -7,112 +7,69 @@ h1 {
     font-size: 36px;
    
 }
+
 body {
-    max-width: 100%;    
-    margin: auto;    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     background-color: white;
 }
-header {    
-    height: 100vh;     
-    display: flex;    
-    font-family: 'Roboto', sans-serif;
-    background-image: url(../images/earth.webp);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+header {
+    width: 99%;
+    max-width: 1400px;
+    height: 100px;    
+    border: 1px solid #7ba376;
+    position: relative;
+    display: flex; 
+    justify-content: space-around;     
+    border: 1px solid red;
 }
-.nav-bar {
-    width: 100%;
-    max-height: 50px;
-    margin: auto; 
+.logo-box {
+    max-width: 500px;
+    min-height: fit-content;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    z-index: 5;
-    padding: 10px 0;  
-    background-color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: relative;    
 }
 .logo-title {
     font-style: italic;
     font-weight: bold;
-    right: 100px;
     color: #7ba376;
     position: relative;
     display: flex;    
     text-shadow: 2px 2px 2px #000000;
 }
 .logo {
-    position: relative; 
-    top: 10px;
-} 
-.nav-bar {
-    width: 100%;
-    max-height: 50px;
-    margin: auto;
+    position: relative;    
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;  
-    z-index: 5;
-    padding: 10px 0;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    left: 0; 
+    
+} 
+nav {
+    min-width: 300px;
+    min-height: 100px;    
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;    
+    list-style: none;
+    flex-direction: row;
+    border: 1px solid red;
 }
-.nav {
-    max-width: 600px;
-    width: 100%;
-}
-.nav__link {
-    font-size: 20px;
-    font-weight: 700;
-    float: left;
-    display: block;
-    padding-right: 50px;
+li {
+    list-style: none; 
+    text-decoration: none;   
+    display: inline;
+    font-size: 20px; 
+    margin-right: 10px; 
+    margin-left: 10px;  
+    font-family: 'Roboto' sans-serif;
+    font-weight: bold;
     color: #7ba376;
-    text-decoration: none;
-}
-.nav__link:hover {
-    font-weight: 700;
+               
+} 
+li:hover {
+    font-weight: bold;
     color: #7ba376;
-    text-shadow: 1px 1px 1px #000000;
     text-decoration: underline;
-}
-.nav .icon {
-    display: none;
-}
-.nav.responsive a {
-    font-size: 18px;
-    float: none;
-    display: inline-block;
-    text-align: left;
-}
-@media screen and (max-width: 800px) {
-    .nav a  {display: none;}
-    .nav a.icon {
-      float: left;
-      display: block;
-    }
-}
-@media screen and (max-width: 800px) {
-    .nav a.responsive {position: relative;}
-    .nav a.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-}
-@media screen and (max-width: 1000px) {
-    .logo-title {
-        display: none;
-    }
-}
+} 
 .earth {
     width: 99%;
     height: 50vh;
@@ -121,7 +78,7 @@ header {
     opacity: 80%;    
 }
 .container {
-    max-width: 1250px;
+    max-width: 1300px;
     width: 100%;
     margin: 0 5px 5px 5px;
     display: flex;    
@@ -185,7 +142,7 @@ input:hover, textarea:hover, button:hover {
     background: #c0dbbd;
 }
 
-.footer {
+footer {
     font-family: 'Roboto', sans-serif;
     background-color: white;    
     padding: 40px 0;    
@@ -197,7 +154,7 @@ input:hover, textarea:hover, button:hover {
     text-align: center;    
     padding-bottom: 25px;        
 }
-.footer .social a {    
+footer .social a {    
     width: 40px;
     height: 40px;
     line-height: 38px;
@@ -208,33 +165,33 @@ input:hover, textarea:hover, button:hover {
     padding: 5px;
     margin: 5px;
 }
-.footer ul {
+footer ul {
     font-size: 20px;    
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;    
 }
-.footer ul li {
+footer ul li {
     display: inline-block;
     padding: 0 15px;
 }
-.footer ul li a {    
+footer ul li a {
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
     color: #7ba376;
     text-decoration: none;
 }
-.footer .social a:hover {
+footer .social a:hover {
     color: #385532; 
     cursor: pointer; 
  }
-.footer ul li a:hover {
+footer ul li a:hover {
     font-weight: 700;
     color: #7ba376;
     text-shadow: 1px 1px 1px #385532;
 }
-.footer.logo-title {
+.logo-title {
     position: relative;
     left: 10px;
     top: 15px;
