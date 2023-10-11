@@ -115,6 +115,17 @@ footer {
     font-size: 24px;
     text-align: center;    
     padding-bottom: 25px;
-    
         
+}
+footer .social a {    
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    border: 1px solid #7ba376;
+    color: #7ba376;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+
 }
