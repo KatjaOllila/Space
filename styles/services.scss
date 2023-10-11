@@ -12,15 +12,15 @@ body{
 h3{
     color: gray;
 }
-section .container{
+.heading-container{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-}
-section .container h1{
-    font-size: 32px;
     box-shadow: 10px 10px 10px rgb(77, 76, 76);
+    margin-top: -600px;
+}
+section .container .heading1{
+    font-size: 32px;
 }
 
 
@@ -36,18 +36,14 @@ section .container h1{
     width: 100%;
     border: none;
     border-radius: 20px;
+   
 }
 .section1 .left-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 600px;
+    max-width: 400px;
     width: 100%;
-}
-.section1 .right-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     
 }
 .section1 .icon {
@@ -68,18 +64,14 @@ section .container h1{
     border: none;
     border-radius: 20px;
 }
-.section2 .left-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-}
+
 .section2 .right-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 600px;
+    max-width: 400px;
     width: 100%;
+    
 }
 .section2 .icon {
     display: flex;
@@ -94,22 +86,18 @@ section .container h1{
 }
 .section3 .entertainment-img{
     height: 350px;
-    max-width: 350px;
-    width: 100%;
+    width:350px;
     border: none;
     border-radius: 20px;
+    margin: 0;
 }
 .section3 .left-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 600px;
+    max-width: 400px;
     width: 100%;
-}
-.section3 .right-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    
 }
 .section3 .icon {
     display: flex;
@@ -246,15 +234,14 @@ section .container h1{
     width:260px ;
     transition: 0.5s ease-in-out;
 }/*section4 ends...*/
-
 .section5 .form-container{
     position: relative;
     background-color: rgb(187, 241, 187);
-    display: block;
     text-align: left;
     margin-top: 40px;
-    height: 620px;
-    width: 920px;
+    height: 520px;
+    max-width: 920px;
+    width: 100%;
     font-size: 22px;
     padding: 40px;
     padding-left: 80px;
@@ -263,8 +250,17 @@ section .container h1{
     background: rgb(252, 197, 114); 
 }
 .section5 h2{
+    max-width: 500px;
+    width: 100%;
    margin-top: 100px;
     text-align: center;
+    box-shadow: 10px 10px 10px rgb(77, 76, 76);
+    font-size: 40px;
+}
+.section5 .h2-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
 }
 .section5 .register-form{
     display: flex;
@@ -278,9 +274,14 @@ section .container h1{
     background: transparent;
     border: none;
     border-bottom:solid 1px ;
+    margin-bottom: 18px;
 }
 .form-container .input-date-of-birth{
     width: 180px;
+    color: gray;
+}
+.form-container .destination-part{
+    width: 110px; margin-top: 10px; margin-bottom: 6px;
 }
 .form-container .submit-btn{
     height: 40px;
@@ -289,14 +290,27 @@ section .container h1{
     border-radius: 20px;
     margin-top: 18px;
     font-weight: 700;
-
+   
+}
+.form-container .submit-btn a{
+    text-decoration: none;
+    color: black;
+}
+.submit-btn:hover{
+    height: 50px;
+    width: 180px;
+    transition: ease-in-out 0.5s ;
 }
 .form-container .form-img{
     position: absolute;
     right: 0px;
     bottom: 0px;
     top: 0px;
-    height: 620px;
+    height: 600px; 
+    max-width: 500px; 
+    width: 100%;
+    border: none;
+    border-radius: 28px
 }
 @media screen and (max-width: 800px) {
     .nav a  {display: none;}

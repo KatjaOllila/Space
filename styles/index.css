@@ -15,6 +15,7 @@ header {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 0;
+  overflow: hidden;
 }
 
 .logo-title {
@@ -79,7 +80,7 @@ header {
 }
 
 body {
-  background-color: black;
+  background: url("/images/paul-volkmer-qVotvbsuM_c-unsplash (1).jpg");
   background-size: cover;
   background-position: center;
   font-family: "Roboto", sans-serif;
@@ -96,7 +97,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 0;
+  margin-top: -600px;
 }
 
 .container h1 {
@@ -117,6 +118,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 100px;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 .moon-img {
@@ -159,6 +162,16 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-left: 25px;
+}
+
+.moon-content h2 {
+  font-size: 92px;
+  text-align: center;
+}
+
+.moon-content p {
+  font-size: 18px;
+  text-align: center;
 }
 
 /*section1 ends..............*/
@@ -216,6 +229,11 @@ body {
   list-style: none;
 }
 
+.mars-content h2 {
+  font-size: 92px;
+  text-align: center;
+}
+
 /*section 2 ends.......*/
 .section3 {
   display: -webkit-box;
@@ -267,12 +285,17 @@ body {
   margin-left: 25px;
 }
 
-.iss-content .ul {
+.iss-content ul {
   list-style: none;
 }
 
 .iss-content .anchor {
   color: white;
+}
+
+.iss-content h2 {
+  font-size: 92px;
+  text-align: center;
 }
 
 /*section3 ends......*/
@@ -285,6 +308,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 50px;
 }
 
 .our-services-btn {
@@ -300,6 +324,10 @@ footer {
   font-style: normal;
   font-weight: 500;
   text-align: center;
+}
+
+.our-services-btn:hover {
+  background-color: gray;
 }
 
 @media screen and (max-width: 800px) {

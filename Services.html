@@ -44,8 +44,8 @@
             </div>
         </div>
     </header>
-    <section class="container">
-        <h1>NEVER STOP EXPLORING THE WORLD!</h1>
+    <section class="heading-container">
+        <h1 class="heading1">NEVER STOP EXPLORING THE WORLD!</h1>
     </section>
     <section class="section1">
         <div class="left-container">
@@ -54,14 +54,15 @@
             <div class="icon"><img src="images/Group 13.png"><p> Keyless access</p></div>
             <div class="icon"><img src="images/Group 13.png"><p>Luxury hotel</p></div>
             <div class="icon"><img src="images/Group 13.png"><p>Free restaurant access</p></div>   
-            </div>
+            </div></div>
             <div class="right-container" >
                 <img class="hotel-img" src="images/md-shahareyar-yunus-AJcpL8yANys-unsplash.jpg" alt="Hotel image">
             </div>
-        </div>
     </section><!--section1 ends..-->
     <section class="section2">
-        <div class="left-container"><img class="spaceship" src="images/photobank-kiev-Opzk_hvwO9Q-unsplash.jpg" alt="Spaceship image"></div>
+        <div class="left-container">
+            <img class="spaceship" src="images/photobank-kiev-Opzk_hvwO9Q-unsplash.jpg" alt="Spaceship image">
+        </div>
         <div class="right-container">
             <div><h2>Special Tickets</h2>
                 <h3>We always make our customer happy by providing as many choices as possible</h3>
@@ -133,42 +134,37 @@
     </section><!--section4 ends...-->
 
     <section class="section5">
-        <h2>REGISTER YOURSELF HERE</h2>
+        <div class="h2-container"><h2>REGISTER YOURSELF HERE</h2></div>
         <div class="register-form">
         <div class="form-container">
         <form class="form">
-            <div style="margin-bottom: 14px;">
+            <div>
                 <label class="name" for="name">NAME</label><br>
                 <input class="input-name" type="text" id="name" placeholder="Enter your name here."><br>
             </div>
-            <div style="margin-bottom: 14px;">
+            <div>
                 <label class="date-of-birth" for="date-of-birth">DATE OF BIRTH</label><br>
-                <input style="color: gray;"  type="date" id="date-of-birth"><br>
+                <input class="input-date-of-birth"  type="date" id="date-of-birth"><br>
             </div>
-            <div style="margin-bottom: 14px;">
+            <div>
                 <label class="email" for="email">EMAIL</label><br>
                 <input class="input-email" type="email" id="email" placeholder="Enter your email here"><br>
             </div>
-            <div style="margin-bottom: 14px;">
+            <div>
                 <label class="phone-number" for="phone-number" >CONTACT NUMBER</label><br>
                 <input class="input-tel" type="tel" id="phone-number" placeholder="Enter your phone number"><br>
             </div>
-                <label class="checkbox" for="checkbox" >GENDER</label><br>
-            <div style="margin-bottom: 10px; display: flex; flex-direction:column; ">
-                <label><span><input type="checkbox" id="male" name="male">MALE</label></span>
-                <label><input type="checkbox" id="male" name="male">FEMALE</label><br>
                 <label for="dropdown-list" class="dropdown-list">CHOOSE YOUR DESTINATION</label>
-            <div style="width: 110px; margin-top: 10px; margin-bottom: 6px;">
+            <div class="destination-part">
                 <select class="select" name="Destination"  id="select">
                 <option value="Moon-trip">Moon Trip</option>
                 <option value="Mars-trip">Mars Trip</option>
                 <option value="iss-trip">ISS Trip</option>
             </select><br></div>
-            <button class="submit-btn" type="submit"><a style=" text-decoration: none; color: black;" href="">SUBMIT</a></button>
+            <button class="submit-btn" type="submit"><a href="">SUBMIT</a></button>
         </form>
-        <div class="form-img">
-            <img style="height: 700px; width: 500px; border: none;
-            border-radius: 28px;" src="images/chirag-saini-VrWyKyITBQs-unsplash.jpg" alt="gravity image">
+        <div class="form-img-container">
+            <img class="form-img" src="images/chirag-saini-VrWyKyITBQs-unsplash.jpg" alt="gravity image">
         </div>
     </div>
         </div>
