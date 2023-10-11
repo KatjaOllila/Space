@@ -127,5 +127,12 @@ footer .social a {
     border-radius: 50%;
     padding: 5px;
     margin: 5px;
-
+}
+footer ul {
+    font-size: 20px;
+    font-weight: 700px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    
 }
