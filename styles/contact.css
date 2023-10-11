@@ -146,3 +146,12 @@ footer ul li a {
     color: #7ba376;
     text-decoration: none;
 }
+footer .social a:hover {
+    color: #385532; 
+    cursor: pointer; 
+ }
+footer ul li a:hover {
+    font-weight: 700;
+    color: #7ba376;
+    text-shadow: 1px 1px 1px #385532;
+}
